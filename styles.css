@@ -54,6 +54,41 @@ section{
 
 }
 
+.secHeading{
+    font-size: 3.5rem;
+    padding: 0 10rem;
+}
+
+.text{
+    font-size: 1rem;
+    padding: 0 10rem;
+    margin: 5 0rem;
+    
+
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+}
+
+.desc{
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 58%;
+    transform: translateX(-50%) translateX(-50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
 .bg1{
     background-image: url(sport-1.jpg);
 }
